@@ -1,0 +1,37 @@
+# todo_list
+README.txt:
+
+Todo List Application
+This is a simple to-do list application developed using Python's tkinter module. 
+The application allows the user to create a list of tasks, select multiple tasks at once, 
+add and delete tasks, and exit the application.
+
+Instructions:
+
+Installation
+To install and run the To-do List app, simply download the code from this repository and run it in
+a Python environment.
+The main window of the application displays a task list and two images. The user can select
+tasks from the task list by clicking on them.
+To add a new task, click the "Add Task" button. This will open a new window where the user 
+can enter a new task.
+To delete a task, select the task from the list and click the "Delete Task" button.
+To exit the application, click the "Exit" button.
+Note: The application only accepts a predefined list of tasks, which are stored in
+the "selected_tasks" list. If the user enters a task that is not on this list, 
+a warning window will be displayed.
+
+Contributing:
+
+Contributions to this project are welcome. If you find any bugs or have any suggestions,
+please submit an issue on this repository.
+
+License:
+This code is licensed under the MIT License.
+
+This application requires the following modules to be installed:
+tkinter
+PIL
+
+Acknowledgments:
+This implementation of the To-do List was created by Maria Arreola.
